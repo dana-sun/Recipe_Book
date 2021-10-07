@@ -43,8 +43,5 @@ class testing{
         if (choice == 1) System.out.println("\n The ingredient(s) for " + recipe+ " is " + dr.get_ingredients(recipe) + ".");
         else if (choice == 2) System.out.println("\n" + recipe + " is(are) " + dr.get_description(recipe) + ".");
         else System.out.println("\n" + "To make " + recipe + " " + dr.get_instructions(recipe) + ".");
-
-
-        // System.out.println(dr.get_description("cookie"));
     }
 }
