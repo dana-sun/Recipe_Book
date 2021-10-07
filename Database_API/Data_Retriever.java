@@ -51,5 +51,9 @@ class Data_Retriever{
         return this.file_data.get(name)[INSTRUCTIONS_INDEX];
     }
 
+    public boolean notHere(String name){
+        return this.file_data.get(name) == null;
+    }
+
 
 }
